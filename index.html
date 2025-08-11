@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Сайт-визитка</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#skills">Навыки и стек</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="card">
+        <img src="avatar.jpg" alt="Ваше фото" class="avatar"/>
+        <h1>Волкова Наталия</h1>
+        <h2>QA engineer</h2>
+        <p class="description">Нахожу ошибки до того, как они начнут жить своей жизнью в проде. Проверяю всё, даже этот текст.</p>
+
+        <div class="buttons">
+          <a href="resume.pdf" class="btn" target="_blank">
+            <i class="fa-solid fa-file-arrow-down"></i> Скачать резюме
+          </a>
+          <a href="https://t.me/Suprimmka" target="_blank" class="btn">
+            <i class="fab fa-telegram-plane"></i> Написать в Telegram
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="section-content">
+        <h3>Обо мне</h3>
+        <p>
+          Привет, я Натали! Вне работы — человек с тягой к котикам, спонтанным прогулкам и уютным вечерам под пледом с играми или сериалами. Обожаю логику и порядок — будь то в жизни, интерфейсе или списке дел. Замечаю детали, которые легко ускользают от других, и получаю настоящее удовольствие, когда всё работает именно так, как должно.
+        </p>
+      </div>
+    </section>
+<section id="skills">
+  <div class="section-content">
+    <h3>Навыки и стек</h3>
+    <p class="skills-description">
+      Во время работы я использую следующий стек инструментов и технологий:
+    </p>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-tools"></i></div>
+        <h3>DevTools</h3>
+        <p>Для тестирования front-части web-приложений</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-envelope-open-text"></i></div>
+        <h3>Postman</h3>
+        <p>Для тестирования API и написания автотестов</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-code"></i></div>
+        <h3>Swagger</h3>
+        <p>Для тестирования API и документации по API</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-database"></i></div>
+        <h3>PostgreSQL</h3>
+        <p>Просмотр данных в БД и написание SQL-запросов</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-random"></i></div>
+        <h3>Jaeger</h3>
+        <p>Отслеживание трассировки и проверка взаимодействия микросервисов</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-list-check"></i></div>
+        <h3>Yandex Tracker</h3>
+        <p>Организация ежедневной работы и написание багрепортов</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-check-square"></i></div>
+        <h3>Test IT</h3>
+        <p>Написание тест-кейсов</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+        <h3>Charles</h3>
+        <p>Тестирование front-end / back-end, анализ трафика</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+        <h3>Kibana, Sentry, Grafana</h3>
+        <p>Просмотр логов приложений и мониторинг ошибок</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-file-code"></i></div>
+        <h3>HTML, CSS</h3>
+        <p>Тестирование front-end</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+        <h3>Figma</h3>
+        <p>Тестирование user-interface front-end</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-ruler-combined"></i></div>
+        <h3>Perfect Pixel</h3>
+        <p>Тестирование user-interface front-end</p>
+      </div>
+    </div>
+  </div>
+</section>
+    <section id="contacts">
+      <div class="section-content">
+        <h3>Мои Контакты</h3>
+        <ul class="contact-list">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Россия, Москва</span>
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <a href="tel:+79166257018">+7 (916) 625-70-18</a>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:NVolkova2498@yandex.ru">NVolkova2498@yandex.ru</a>
+          </li>
+          <li>
+            <i class="fab fa-telegram"></i>
+            <a href="https://t.me/Suprimmka" target="_blank">@Suprimmka</a>
+          </li>
+          <li>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p style="text-align:center; padding: 20px 0; color: #888;">&copy; 2025 Пу-Пу-Пу</p>
+  </footer>
+<button id="scrollToTopBtn" title="Наверх" aria-label="Наверх">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+    <path d="M12 19V6M5 13l7-7 7 7"/>
+  </svg>
+</button>
+<script src="script.js"></script>
+</body>
+</html>
