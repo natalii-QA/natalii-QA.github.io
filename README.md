@@ -1,2 +1,2 @@
-# natalii-QA.github.io
+# natalii-qa.github.io
 Сайт визитка HTML, CSS
